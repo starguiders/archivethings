@@ -1,0 +1,15 @@
+@font-face {
+font-family: "Kiki";
+src: url('https://starguiders.github.io/archivethings/KIKI/FONTS/Suctenss/Suctenss.otf');
+format('opentype');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "Kiki Deco";
+src: url('https://starguiders.github.io/archivethings/KIKI/FONTS/Slim_Wandals/SlimWandalsElement_PERSONAL.ttf');
+format('truetype');
+font-style: normal;
+font-weight: normal;
+}
