@@ -1,0 +1,20 @@
+@font-face {
+font-family: "Slim Wandals";
+src: url('https://starguiders.github.io/archivethings/KIKI/FONTS/Slim Wandals/SlimWandals_PERSONAL.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "Slim Wandals Deco";
+src: url('https://starguiders.github.io/archivethings/KIKI/FONTS/Slim Wandals/SlimWandalsElement_PERSONAL.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "Slim Wandals Alt";
+src: url('https://starguiders.github.io/archivethings/KIKI/FONTS/Slim Wandals/SlimWandalsAlt_PERSONAL.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
