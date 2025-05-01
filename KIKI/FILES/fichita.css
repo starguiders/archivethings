@@ -72,5 +72,14 @@
   filter: opacity(0.4);
   }
   }
-}
+  }
+  & .fcbheader.tw {
+  text-transform: uppercase;
+  border: var(--border2);
+  color: var(--text);
+  background: transparent;
+  font: 800 var(--fs-smaller) var(--f-mono);
+  text-align: center;
+  line-height: 100%;
+  }
 }
