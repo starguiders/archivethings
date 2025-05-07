@@ -118,6 +118,11 @@
       font: 800 var(--fs-body) 'Oxanium' !important;
       line-height: 100%!important;
       margin-bottom: -4px!important;
+      }
+    & i {
+      text-align-last: right;
+      font: 600 0.7rem 'Oxanium';
+      line-height: 100%;
     }
 }
   & .fcdecof {
@@ -131,6 +136,7 @@
     & b {
       border: var(--border2);
       border-bottom: none!important;
+      text-align: left;
     }
     & i {
       border: var(--border2);
@@ -149,6 +155,9 @@
       align-items: center;
       padding: 1.2rem;
       flex: 1;
+    }
+    & u {
+      gap: 0px;
     }
     & i {
       border-top: var(--border2);
@@ -177,6 +186,7 @@
       color: transparent !important;
       text-shadow: 2px 2px 0px var(--border2-c);
       -webkit-text-stroke: 0.7px #ffffff1a;
+      font-style: normal;
     }
     & strong {
       font-weight: 800;
