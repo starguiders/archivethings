@@ -132,6 +132,7 @@
     }
     & em {
       margin-bottom: 12px!important;
+      font-size: 35px;
     }
     & b {
       border: var(--border2);
