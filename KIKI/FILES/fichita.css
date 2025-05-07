@@ -179,6 +179,8 @@
     overflow: hidden;
     border-left-color: var(--group);
     border-right-color: var(--group);
+    border-left-width: 3px;
+    border-right-width: 3px;
         & i {
       position: absolute;
       z-index: -1;
@@ -192,7 +194,7 @@
     }
     & strong {
       font-weight: 800;
-      color: var(--group);
+      color: var(--title);
       letter-spacing: -.5px;
     }
 }
