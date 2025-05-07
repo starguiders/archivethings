@@ -310,4 +310,17 @@
       column-count: 3;
     }
   }
+  .fcdivider {
+  font: normal 50px 'Kiki Deco';
+  margin: 0 auto;
+  width: fit-content;
+  color: var(--text3);
+  filter: opacity(0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  line-height: 0 !important;
+  margin-top: 10px;
+  }
 }
