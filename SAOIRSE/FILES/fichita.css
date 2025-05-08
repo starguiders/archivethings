@@ -85,7 +85,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 20px;
+      gap: 7px;
       &>b {
         font: 400 .9rem 'Saoirse';
         text-transform: lowercase;
@@ -115,6 +115,7 @@
         color: var(--group);
         &:first-of-type {
           margin-bottom: 20px;
+          margin-top: -5px;
         }
       }
       & .normaltext, & .finaltext {
