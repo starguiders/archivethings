@@ -1,7 +1,95 @@
 @font-face {
   font-family: "Saoirse";
-  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-Typeface.ttf');
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-Regular.ttf');
   format('truetype');
   font-style: normal;
   font-weight: normal;
+}
+
+@font-face {
+  font-family: "Saoirse";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-Light.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Saoirse";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-Medium.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Saoirse";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-Bold.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Saoirse Swash1";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-RegularSwash1.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Saoirse Swash1";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-LightSwash1.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Saoirse Swash1";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-MediumSwash1.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Saoirse Swash1";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-BoldSwash1.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Saoirse Swash2";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-RegularSwash2.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Saoirse Swash2";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-LightSwash2.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Saoirse Swash2";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-MediumSwash2.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Saoirse Swash2";
+  src: url('https://starguiders.github.io/archivethings/SAOIRSE/FONTS/Jabin/Jabin-BoldSwash2.ttf');
+  format('truetype');
+  font-style: normal;
+  font-weight: 800;
 }
