@@ -1,3 +1,4 @@
+
 .saoirse {
   & .bigcover {
     display: flex;
@@ -158,15 +159,14 @@
     }
   }
   & h2.post-content {
-    
-  font: 800 var(--fs-h1) 'Saoirse' !important;
-  line-height: normal;
-  color: transparent !important;
-  text-shadow: 2px 2px 0px var(--border3-c);
-  -webkit-text-stroke: 1px var(--group);
-  text-transform: initial;
-  line-height: 100% !important;
-  border: none !important;
+    font: 800 var(--fs-h1) 'Saoirse' !important;
+    line-height: normal;
+    color: transparent !important;
+    text-shadow: 2px 2px 0px var(--border3-c);
+    -webkit-text-stroke: 1px var(--group);
+    text-transform: initial;
+    line-height: 100% !important;
+    border: none !important;
   }
   & h3.post-content {
     font: 600 var(--fs-h3) 'Saoirse' !important;
@@ -218,8 +218,150 @@
   & .fcdecof, & .fcdecof2  {
     width: 40% !important;
     min-width: 260px;
+    & em {
+      color: var(--group-75);
+      font-size: 1.5rem;
+      border: var(--border2);
+      width: 40px;
+      height: 40px;
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      align-items: center;
+      transform: rotate(45deg);
+      margin: 0 auto;
+      &:before {
+        transform: rotate(-45deg);
+      }
+    }
+    & b {
+      text-transform: lowercase!important;
+      font: 800 var(--fs-h4) 'Saoirse' !important;
+      line-height: normal;
+      line-height: normal;
+      color: var(--title) !important;
+      line-height: 100% !important;
+      &:after {
+        content: '• • • •';
+        display: block;
+        letter-spacing: 2px;
+        color: var(--group);
+        font-size: var(--fs-h5)!important;
+        line-height: 100%!important;
+        margin-top: -2px;
+      }
+    }
+    & i {
+      font: 600 var(--fs-smaller) 'Crimson Text'!important;
+      line-height: 100%!important;
+    }
   }
   & .fcdecof {
     margin-inline: auto;
+    & em {
+      margin-bottom: 15px;
+    }
+  }
+  & .fcdecof2 {
+  gap: 0px;
+      & u {
+      margin-left: 20px!important;
+    }
+    & i {
+      text-align-last: left!important;
+    }
+  }
+  & .fcbox {
+    & .fcbheader:not(.tw) {
+      background: transparent!important;
+      width: fit-content;
+      text-transform: uppercase;
+      font: 800 .9rem 'Crimson Text';
+      position: relative;
+      border: var(--border2);
+      line-height: 100%;
+      padding: 8px;
+      color: var(--subtitle);
+    }
+    & .fcbheader.tw {
+      font-family: 'Crimson Text';
+      line-height: 120%;
+      font-size: 0.9rem;
+      background: transparent!important;
+      border: var(--border2);
+      margin: 0 auto;
+      width: calc(100% - (10px * 2));
+      box-sizing: border-box;
+      text-align: center;
+      text-transform: lowercase;
+      color: var(--text);
+      font-weight: 500;
+      &>strong {
+      }
+      &>i {
+        font-style: normal;
+        & strong {
+          color: var(--subtitle);
+          font-weight: 600;
+        }
+        & i {
+          color: var(--text2);
+        }
+        & strike, & u {
+          text-decoration-color: var(--group); 
+        }
+        & u {
+          font-weight: 600;
+          color: var(--subtitle);
+        }
+        & strike {
+          color: var(--text3);
+        }
+      }
+    }
+    & details[data-section="spoiler"] {
+      & summary {
+        background: var(--dbckg2);
+        gap: .8em;
+        font: 800 0.9rem 'Crimson Text';
+        line-height: 100%;
+        & em {
+          margin-top: -2px !important;
+          font-size: var(--fs-small);
+        }
+      }
+      & [data-section="columns"] {
+        font-size: 0.95rem;
+        line-height: 140%;
+        column-count: 2;
+        column-gap: 20px;
+        column-rule: var(--border2);
+        column-width: 200px;
+      }
+    }
+  }
+  .colcont {
+    font-size: 0.95rem;
+    line-height: 140%;
+    column-gap: 20px;
+    column-rule: var(--border2);
+    column-width: 200px;
+    &.twocol {
+      column-count: 2;
+    }
+    &.threecol {
+      column-count: 3;
+    }
+  }
+  & .fcdivider {
+    letter-spacing: 2px;
+    color: var(--group);
+    font: 800 var(--fs-h4) 'Saoirse'!important;
+    line-height: 100%!important;
+    margin: -2px auto 0;
+    width: fit-content;
+    text-align: center;
   }
 }
+
