@@ -1,0 +1,118 @@
+
+#kiarasig {
+  width: 305px;
+  height: 195px;
+  margin: 0 auto;
+  outline: var(--border2);
+  box-sizing: border-box;
+  border: 7px solid var(--dbckg1);
+}
+#kiarasig * {
+  box-sizing: border-box;
+}
+#kiarasig br {
+  display: none!important;
+}
+#kiarasig>div {
+  width: 100%;
+  height: 100%;
+  border: var(--border2);
+  position: relative;
+  overflow: hidden;
+}
+#kiarasig .kisigimg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  filter: none;
+  transition: 0.7s;
+}
+#kiarasig:hover .kisigimg {
+  filter: grayscale(1) brightness(0.4);
+}
+#kiarasig .kisigimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#kiarasig > div:before, #kiarasig > div:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 3%;
+  height: 100%;
+  left: 0px;
+  transition: 0.7s;
+}
+#kiarasig > div:before {
+  background: var(--group);
+  mix-blend-mode: overlay;
+}
+#kiarasig > div:after {
+  background: var(--group);
+  border-right: 1px solid transparent;
+}
+#kiarasig:hover > div:after {
+  background: transparent;
+  border-right: var(--border2);
+}
+#kiarasig .kisigimg, #kiarasig > div:before, #kiarasig > div:after {
+  transition-delay: 0.7s;
+}
+#kiarasig:hover .kisigimg, #kiarasig:hover > div:before, #kiarasig:hover > div:after {
+  transition-delay: 0s;
+}
+#kiarasig .kisigtxt, #kiarasig:hover > div:before, #kiarasig:hover > div:after {
+  width: 45%;
+}
+#kiarasig .kisigtxt {
+  left: 0px;
+  padding: 20px;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  transition: 0.7s;
+  top: 100%;
+  transition-delay: 0s;
+}
+#kiarasig:hover .kisigtxt {
+  top: 0;
+  transition-delay: 0.7s;
+}
+#kiarasig .kisigtxt > i {
+  font-size: var(--fs-h1);
+  color: var(--group);
+  opacity: 0.4;
+  margin-bottom: calc((var(--fs-h1) / 2.5) * -1);
+}
+#kiarasig .kisigtxt > div {
+  text-transform: uppercase;
+  font: 800 9px var(--f-mono);
+  color: var(--text);
+  line-height: 140%;
+  text-align: justify;
+  text-align-last: center;
+  position: relative;
+}
+#kiarasig .kisigtxt > div strong {
+  font-weight: 900;
+  font-family: var(--f-titles);
+}
+#kiarasig .kisigtxt > div strike {
+  color: var(--text2);
+  font-weight: 800;
+  font-family: var(--f-titles);
+}
+#kiarasig .kisigtxt > div i {
+  font-weight: 800;
+  font-family: var(--f-titles);
+  color: var(--subtitle);
+}
+#kiarasig .kisigtxt > div u {
+  font-weight: 900;
+  font-family: var(--f-titles);
+  color: var(--subtitle);
+}
