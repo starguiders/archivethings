@@ -584,4 +584,41 @@
       font-size: 1rem;
     }
   }
+    & .fcrbox {
+    font-size: 0.9rem;
+    font-family: 'Work Sans';
+    line-height: 120%;
+    & .podtitl {
+      text-align: right;
+      text-transform: uppercase;
+      font: 800 0.9rem 'Crimson Text';
+      color: var(--subtitle);
+      &:before {
+        content: "• ";
+        font: 800 0.9rem 'Saoirse';
+        color: var(--group);
+      }
+    }
+    & em {
+      color: var(--group);
+    }
+    & .habtitl {
+      text-transform: uppercase;
+      font: 800 0.9rem 'Crimson Text';
+      color: var(--group);
+      border: var(--border3);
+      width: fit-content;
+      line-height: 100%;
+      padding: 5px 6px 4px 6px;
+      margin-bottom: 4px;
+      & span {
+        text-transform: lowercase;
+        color: var(--text2);
+      }
+    }
+    & .habextr {
+      border-left: var(--border2);
+      padding: 5px 0px 5px 10px;
+    }
+  }
 }
