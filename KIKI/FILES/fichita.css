@@ -522,4 +522,49 @@
       font: 500 0.9rem 'Oxanium';
     }
   }
+  & .fcrbox {
+    font-size: 0.9rem;
+    font-family: 'IBM Plex Sans';
+    background: var(--dbckg1);
+    border-color: var(--dbckg1);
+    line-height: 120%;
+    & .podtitl {
+      text-align: right;
+      text-transform: uppercase;
+      font: 800 0.9rem 'Oxanium';
+      color: var(--title);
+      &:before {
+        content: "/ ";
+        color: var(--group);
+      }
+    }
+    & em {
+      color: var(--group);
+    }
+    & .habtitl {
+      text-transform: uppercase;
+      font: 900 0.8rem 'Oxanium';
+      color: var(--group);
+      border: var(--border2);
+      width: fit-content;
+      line-height: 100%;
+      padding: 5px 6px 4px 6px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: .25rem;
+      & span {
+        font-weight: 700;
+        font-size: 0.65rem;
+        color: var(--text2);
+        line-height: 100%;
+        display: block;
+      }
+    }
+    & .habextr {
+      border-left: var(--border2);
+      padding: 5px 0px 5px 10px;
+    }
+  }
 }
