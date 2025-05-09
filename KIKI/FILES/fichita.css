@@ -453,6 +453,9 @@
       margin-bottom: 1px;
       margin-left: 2px;
     }
+    &>em {
+      margin-right: .7rem;
+    }
     &>span {
       display: flex;
       flex-direction: column;
@@ -470,5 +473,7 @@
   .fcpjbot {
     font-size: 0.90rem;
     font-family: 'IBM Plex Sans';
+    background: var(--dbckg1);
+    border-color: var(--dbckg1);
   }
 }
