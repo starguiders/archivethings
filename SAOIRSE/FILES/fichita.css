@@ -300,23 +300,7 @@
       }
       &>i {
         font-style: normal;
-        & strong {
-          color: var(--subtitle);
-          font-weight: 600;
-        }
-        & i {
-          color: var(--text2);
-        }
-        & strike, & u {
-          text-decoration-color: var(--group); 
-        }
-        & u {
-          font-weight: 600;
-          color: var(--subtitle);
-        }
-        & strike {
-          color: var(--text3);
-        }
+        color: var(--text);
       }
     }
     & details[data-section="spoiler"] {
@@ -554,6 +538,50 @@
       outline-color: var(--border3-c);
       font-size: .9rem;
       font-family: 'Work Sans';
+    }
+  }
+  & .fcquote, & .fcrbox, & .fcpjbot, & .colcont, & .footnotes, & .fcbheader.tw {
+    & strong {
+      color: var(--group);
+      font-weight: 700;
+    }
+    & i {
+      font-style: italic;
+      color: var(--subtitle);
+    }
+    & u, & strike {
+      text-decoration-color: var(--group);
+    }
+    & u {
+      color: var(--subtitle);
+    }
+    & strike {
+      color: var(--text2);
+    }
+  }
+  & .colcont {
+    & strong {
+      text-transform: uppercase;
+      font-size: 0.85rem;
+    }
+    & i {
+      font-weight: 500;
+      font-family: 'Crimson Text';
+      font-size: 1rem;
+    }
+    & u, & strike {
+      text-decoration-color: var(--group);
+    }
+    & u {
+      color: var(--subtitle);
+      font-weight: 600;
+      font-family: 'Crimson Text';
+      font-size: 1rem;
+    }
+    & strike {
+      color: var(--text2);
+      font-family: 'Crimson Text';
+      font-size: 1rem;
     }
   }
 }
