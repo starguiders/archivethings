@@ -430,6 +430,16 @@
         line-height: 100% !important;
         margin-bottom: -2px !important;
         color: var(--title);
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 5px;
+        &>span {
+          font: 600 .7rem 'Oxanium';
+          display: block;
+          color: var(--text);
+        }
       }
       &>span {
         border-top: var(--border2);
