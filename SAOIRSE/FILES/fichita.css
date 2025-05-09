@@ -519,4 +519,38 @@
       font-weight: 800;
     }
   }
+  & .fcpj {
+    outline: var(--border3);
+    outline-offset: 4px;
+    border: var(--border3);
+    box-sizing: border-box;
+    & .fcpjtop {
+      background: transparent;
+      &>img {
+        filter: grayscale(1);
+        border: 4px solid var(--dbckg1);
+        outline: var(--border2);
+        box-sizing: border-box;
+        border-radius: 0;
+        margin-top: 2px;
+        margin-bottom: 1px;
+        margin-left: 2px;
+      }
+      &>span {
+        &>strong {
+          font: 800 1.1rem 'Crimson Text';
+        }
+        &>em {
+          color: var(--text2);
+          text-transform: lowercase;
+          font: 600 .9rem 'Crimson Text';
+        }
+      }
+    }
+    .fcpjbot {
+      outline-color: var(--border3-c);
+      font-size: .9rem;
+      font-family: 'Work Sans';
+    }
+  }
 }
