@@ -476,4 +476,40 @@
     background: var(--dbckg1);
     border-color: var(--dbckg1);
   }
+  & .fcquote, & .fcrbox, & .fcpjbot, & .colcont, & .fcbheader.tw>i, &.weaponbox>div>span {
+    & strong {
+      color: var(--group);
+      font-weight: 700;
+    }
+    & i {
+      font-style: italic;
+      color: var(--subtitle);
+    }
+    & u, & strike {
+      text-decoration-color: var(--group);
+    }
+    & u {
+      color: var(--subtitle);
+    }
+    & strike {
+      color: var(--text2);
+    }
+  }
+  & .colcont, &.weaponbox>div>span {
+    & strong {
+      text-transform: uppercase;
+      font: 800 0.85rem 'Oxanium';
+    }
+    & i {
+      font: 500 0.9rem 'Oxanium';
+    }
+    & u {
+      color: var(--subtitle);
+      font: 600 0.9rem 'Oxanium';
+    }
+    & strike {
+      color: var(--text3);
+      font: 500 0.9rem 'Oxanium';
+    }
+  }
 }
