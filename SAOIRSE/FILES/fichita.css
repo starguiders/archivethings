@@ -1,4 +1,3 @@
-
 .saoirse {
   & .bigcover {
     display: flex;
@@ -347,11 +346,66 @@
     column-gap: 20px;
     column-rule: var(--border2);
     column-width: 200px;
+    font-family: 'Work Sans';
     &.twocol {
       column-count: 2;
     }
     &.threecol {
       column-count: 3;
+    }
+    &:not(.extrafacts) {
+      &:first-letter {
+        text-transform: uppercase;
+        font: 800 var(--fs-h2) 'Saoirse';
+        float: left;
+        padding: .9rem;
+        margin-right: .5rem;
+        border: var(--border2);
+        outline-offset: -1px;
+        display: block;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        line-height: 100% !important;
+        color: transparent !important;
+        text-shadow: 2px 2px 0px var(--border3-c);
+        -webkit-text-stroke: 1px var(--group-75);
+      }
+    }
+    &.extrafacts {
+      &>em {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+        margin-top: .5rem;
+        margin-right: .8rem;
+        outline: var(--border2);
+        outline-offset: -1px;
+        background: var(--dbckg3);
+        border: 7px solid var(--dbckg1);
+        float: left;
+        box-sizing: border-box;
+        color: var(--group);
+        font-size: 1.2rem;
+        font-style: normal;
+        &.letter {
+          font-family: 'Saoirse';
+          font-weight: 800;
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          line-height: 100%;
+        }
+        &.number {
+          font-family: 'Crimson Text';
+          font-weight: 800;
+          font-size: 1rem;
+          line-height: 100%;
+          text-transform: uppercase;
+        }
+      }
     }
   }
   & .fcdivider {
@@ -363,5 +417,81 @@
     width: fit-content;
     text-align: center;
   }
+  & .chapterbegin, & .chapterend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px;
+    width: 100%;
+    box-sizing: border-box!important;
+    border: var(--border2);
+    padding: 80px 70px;
+    position: relative;
+    z-index: 1;
+    gap: 10px;
+    & br {
+      display: none;
+    }
+    & * {
+      box-sizing: border-box;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      width: calc(100% - (10px * 2));
+      height: calc(100% + (10px * 2));
+      border: var(--border2);
+      z-index: -1;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: calc(100% - (11px * 3.5));
+      height: calc(100% - (11px * 2));
+      border: var(--border2);
+      z-index: -1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &>img {
+      position: absolute;
+       width: calc(100% - (11px * 3.5));
+      height: calc(100% - (11px * 2));
+      z-index: -1;
+      opacity: .2;
+      object-fit: cover;
+      object-position: center;
+      transition: 0.5s;
+      filter: grayscale(1);
+    }
+    &:hover>img {
+      filter: grayscale(0);
+      opacity: .3;
+    }
+    & b {
+      font: 800 45px 'Saoirse';
+      line-height: normal;
+      line-height: 80%;
+      color: transparent !important;
+      text-shadow: 2px 2px 0px var(--border3-c);
+      -webkit-text-stroke: 1px var(--group-75);
+    }
+    & em {
+      font: 800 var(--fs-h4) 'Saoirse';
+      text-transform: lowercase;
+      letter-spacing: 2px;
+      color: var(--group-75);
+      line-height: 100%;
+    }
+    & i {
+      font: 400 1rem 'Saoirse';
+      text-transform: lowercase;
+      letter-spacing: 2px;
+      color: var(--subtitle);
+      line-height: 100%;
+    }
+  }
 }
-
