@@ -130,7 +130,7 @@
           font: 800 100px 'Saoirse Swash2';
           line-height: 80%;
           color: transparent !important;
-          text-shadow: 2px 2px 0px #282828;
+          text-shadow: 2px 2px 0px #2b2b2b;
           -webkit-text-stroke: 1px var(--group-75);
           & br {
             display: inline;
@@ -162,7 +162,7 @@
     font: 800 var(--fs-h1) 'Saoirse' !important;
     line-height: normal;
     color: transparent !important;
-    text-shadow: 2px 2px 0px #282828;
+    text-shadow: 2px 2px 0px #2b2b2b;
     -webkit-text-stroke: 1px var(--group);
     text-transform: initial;
     line-height: 100% !important;
@@ -352,7 +352,7 @@
         box-decoration-break: clone;
         line-height: 100% !important;
         color: transparent !important;
-        text-shadow: 2px 2px 0px #282828;
+        text-shadow: 2px 2px 0px #2b2b2b;
         -webkit-text-stroke: 1px var(--group-75);
       }
     }
@@ -461,7 +461,7 @@
       line-height: normal;
       line-height: 80%;
       color: transparent !important;
-      text-shadow: 2px 2px 0px #282828;
+      text-shadow: 2px 2px 0px #2b2b2b;
       -webkit-text-stroke: 1px var(--group-75);
     }
     & em {
@@ -536,7 +536,7 @@
       }
     }
     .fcpjbot {
-      outline-color: #282828;
+      outline-color: #2b2b2b;
       font-size: .9rem;
       font-family: 'Work Sans';
     }
